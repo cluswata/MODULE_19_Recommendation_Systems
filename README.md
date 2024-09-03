@@ -1,4 +1,4 @@
-**Building a Movie Recommender System: Evaluation of ML Algorithms Using the Python Surprise Library**
+# Building a Movie Recommender System: Evaluation of ML Algorithms Using the Python Surprise Library
 
 **Problem Statement:** This project focused on developing and assessing a recommender system for predicting movie ratings based on historical data. The objective was to determine the most effective algorithm by minimizing the root mean squared error (RMSE) through cross-validation. The algorithms evaluated included:
 * **KNNBasic:** A fundamental k-nearest neighbors collaborative filtering algorithm.
@@ -71,8 +71,8 @@ Further research could include:
 •	Utilization of other datasets or integration of metadata (e.g., movie genres, tags) for improved recommendations.
 
 **References**<br>
-Surprise Library Documentation: http://surpriselib.com/
-MovieLens Dataset: https://grouplens.org/datasets/movielens/
+•	Surprise Library Documentation: http://surpriselib.com/<br>
+•	MovieLens Dataset: https://grouplens.org/datasets/movielens/
 
 
 
