@@ -3,7 +3,7 @@
 **Problem Statement**<br>
 This project focused on developing and assessing a recommender system for predicting movie ratings based on historical data. The objective was to determine the most effective algorithm by minimizing the root mean squared error (RMSE) through cross-validation. The algorithms evaluated included:
 * **KNNBasic:** A fundamental k-nearest neighbors collaborative filtering algorithm.
-* **SVD:** Singular Value Decomposition, a matrix factorization technique.
+* **SVD:** The Funk SVD, a matrix factorization technique.
 * **NMF:** Non-negative Matrix Factorization, a matrix factorization method with non-negativity constraints.
 * **SlopeOne:** An item-based algorithm that computes predictions based on pairwise item similarities.
 * **CoClustering:** A co-clustering algorithm that groups both users and items into clusters to make recommendations.
@@ -34,7 +34,7 @@ Number of Ratings: 52054
 
 ![Results](Graphs/Results.png)
 
-**Interpretation:** The **SVD** (Singular Value Decomposition) achieved the lowest mean RMSE, indicating it performs the best among the evaluated algorithms for predicting movie ratings in this dataset. This suggests SVD provides the most accurate predictions for this recommendation task.
+**Interpretation:** The **Funk SVD** achieved the lowest mean RMSE, indicating it performs the best among the evaluated algorithms for predicting movie ratings in this dataset. This suggests SVD provides the most accurate predictions for this recommendation task.
 
 **Hyperparameter tuning for SVD**
  
